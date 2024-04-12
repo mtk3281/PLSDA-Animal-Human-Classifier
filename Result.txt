@@ -1,0 +1,99 @@
+24 train/test : 
+
+		Ncomp	   ACCURACY      KAPPA
+
+           	  32       0.9888889   0.9777778
+
+Reference
+Prediction ANIMAL HUMAN
+    ANIMAL     31     3
+    HUMAN       3    15
+                                          
+               Accuracy : 0.8846          
+                 95% CI : (0.7656, 0.9565)
+    No Information Rate : 0.6538          
+    P-Value [Acc > NIR] : 0.0001476       
+                                          
+                  Kappa : 0.7451          
+                                          
+ Mcnemar's Test P-Value : 1.0000000       
+                                          
+            Sensitivity : 0.9118          
+            Specificity : 0.8333          
+         Pos Pred Value : 0.9118          
+         Neg Pred Value : 0.8333          
+             Prevalence : 0.6538          
+         Detection Rate : 0.5962          
+   Detection Prevalence : 0.6538          
+      Balanced Accuracy : 0.8725          
+                                          
+       'Positive' Class : ANIMAL    
+
+
+
+
+30 train/test : 
+
+		Ncomp	   ACCURACY    KAPPA
+
+          	 39       0.9933333  0.9864865  
+
+Reference
+Prediction ANIMAL HUMAN
+    ANIMAL     43     2
+    HUMAN       2    22
+                                         
+               Accuracy : 0.942          
+                 95% CI : (0.8582, 0.984)
+    No Information Rate : 0.6522         
+    P-Value [Acc > NIR] : 1.22e-08       
+                                         
+                  Kappa : 0.8722         
+                                         
+ Mcnemar's Test P-Value : 1              
+                                         
+            Sensitivity : 0.9556         
+            Specificity : 0.9167         
+         Pos Pred Value : 0.9556         
+         Neg Pred Value : 0.9167         
+             Prevalence : 0.6522         
+         Detection Rate : 0.6232         
+   Detection Prevalence : 0.6522         
+      Balanced Accuracy : 0.9361         
+                                         
+       'Positive' Class : ANIMAL 
+
+
+
+
+24 Rand Test/Train (trim Train/Test) BEST:
+
+
+	  Ncomp	   ACCURACY    KAPPA
+
+           52	  0.9944444  0.9880000  
+
+Reference
+Prediction ANIMAL HUMAN
+    ANIMAL     31     0
+    HUMAN       3    18
+                                          
+               Accuracy : 0.9423          
+                 95% CI : (0.8405, 0.9879)
+    No Information Rate : 0.6538          
+    P-Value [Acc > NIR] : 9.343e-07       
+                                          
+                  Kappa : 0.8774          
+                                          
+ Mcnemar's Test P-Value : 0.2482          
+                                          
+            Sensitivity : 0.9118          
+            Specificity : 1.0000          
+         Pos Pred Value : 1.0000          
+         Neg Pred Value : 0.8571          
+             Prevalence : 0.6538          
+         Detection Rate : 0.5962          
+   Detection Prevalence : 0.5962          
+      Balanced Accuracy : 0.9559          
+                                          
+       'Positive' Class : ANIMAL 
